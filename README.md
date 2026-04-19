@@ -1,10 +1,10 @@
 ## GUI mode
 
-Run:
+### Run:
 
 npm run gui
 
-Open:
+### Open:
 
 http://localhost:3000
 
