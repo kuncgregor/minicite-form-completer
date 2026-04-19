@@ -1,4 +1,4 @@
-# Urnik Automation
+# Minicite form completeer
 
 Simple automation project with two modes:
 - GUI mode 
