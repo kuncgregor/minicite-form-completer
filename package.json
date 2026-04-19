@@ -1,0 +1,16 @@
+{
+  "name": "urnik-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automatic daily form submitter",
+  "main": "automation.js",
+  "scripts": {
+    "run-once": "node automation.js",
+    "run-loop": "node run-every-24h.js",
+    "gui": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "playwright": "^1.54.2"
+  }
+}

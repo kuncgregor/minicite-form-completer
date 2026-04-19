@@ -1,0 +1,16 @@
+{
+  "url": "https://example.com/your-form-page",
+  "emails": [
+    "mail1@example.com",
+    "mail2@example.com"
+  ],
+  "emailSelector": "input[type='email']",
+  "buttonSelector": "#daily-option",
+  "submitSelector": "#survey-submit",
+  "successSelector": "",
+  "headless": false,
+  "manualSubmit": true,
+  "closeBrowserAfterManualSubmit": false,
+  "timeoutMs": 30000,
+  "screenshotOnDone": true
+}

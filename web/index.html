@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="sl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glasovanje Helper</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen bg-white text-zinc-900 antialiased">
+    <main class="grid min-h-screen place-items-center p-4">
+      <section class="w-full max-w-2xl rounded-lg border border-zinc-200 bg-white p-6">
+        <h1 class="mb-2 text-2xl font-bold tracking-tight sm:text-3xl">Email Tabs Prep</h1>
+        <p class="mb-4 text-sm leading-relaxed text-zinc-600">
+          Vnesi emaile (en email na vrstico), shrani in klikni gumb Shrani emaile (to ti shrani emaile lokano v browser).
+        </p>
+        <p class="text-sm text-zinc-700">Nato klikni gumb "Izpolni forme za oddajo".</p>
+
+        <label for="emailsInput" class="mb-2 mt-5 inline-block text-sm font-semibold">Email naslovi</label>
+        <textarea
+          id="emailsInput"
+          placeholder="mail1@example.com&#10;mail2@example.com"
+          class="min-h-[200px] w-full resize-y rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm leading-relaxed text-zinc-900 outline-none transition focus:border-zinc-900"
+        ></textarea>
+
+        <div class="mt-4 flex flex-wrap gap-2.5">
+          <button
+            id="saveBtn"
+            class="rounded-md border border-zinc-900 bg-white px-3.5 py-2 text-xs font-bold uppercase tracking-wide text-zinc-900 transition hover:bg-zinc-900 hover:text-white disabled:cursor-not-allowed disabled:opacity-55"
+          >
+            Shrani emaile
+          </button>
+          <button
+            id="runBtn"
+            class="rounded-md border border-zinc-900 bg-zinc-900 px-3.5 py-2 text-xs font-bold uppercase tracking-wide text-white transition hover:bg-white hover:text-zinc-900 disabled:cursor-not-allowed disabled:opacity-55"
+          >
+            Izpolni forme za oddajo
+          </button>
+        </div>
+
+        <p id="status" class="mt-4 rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm text-zinc-800">Pripravljen.</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

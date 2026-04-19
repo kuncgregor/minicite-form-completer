@@ -1,0 +1,15 @@
+{
+  "url": "https://www.rtvslo.si/anketno-mesto/2",
+  "emails": [
+    "kunc.gregor@gmail.com"
+  ],
+  "emailSelector": "input[type='email']",
+  "buttonSelector": "#surveyOption-19",
+  "submitSelector": "#survey-submit",
+  "successSelector": "",
+  "headless": false,
+  "manualSubmit": true,
+  "closeBrowserAfterManualSubmit": false,
+  "timeoutMs": 30000,
+  "screenshotOnDone": true
+}
