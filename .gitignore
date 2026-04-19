@@ -16,6 +16,7 @@ pnpm-debug.log*
 dist/
 build/
 coverage/
+tmp/
 
 # Environment files
 .env
