@@ -8,7 +8,7 @@ npm run gui
 
 http://localhost:3000
 
-### CLI mode
+## CLI mode
 ### 1) Install
 
 Run in this folder:
